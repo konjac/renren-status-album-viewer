@@ -1,8 +1,8 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name          renren_status
 // @include       http://www.renren.com/*
 // @description   人人非好友状态查看
-// @version       2013.09.09
+// @version       0.0.1
 // @match         *://*.renren.com/*
 // @grant         GM_getValue
 // @grant         GM_setValue
