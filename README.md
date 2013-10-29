@@ -1,4 +1,4 @@
-renren_status
+renren_status_album_viewer
 =============
 
 #查看人人非好友状态、相册
