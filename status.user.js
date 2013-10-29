@@ -14,7 +14,7 @@ var url = document.location.href;
 if(url.match(regex) != null){
 	var uid = url.match(regex)[1];
  	var myid = document.getElementById("showProfileMenu").href.match(/id=(\d+)/)[1];
- 	var openUrl = "http://www.renren.com/"+myid+"#//status/status?id="+uid;
+ 	var openUrl = "http://status.renren.com/status/"+uid;
  	var atag = document.createElement("a");
  	var txtNode = document.createTextNode("状态"); 
  	atag.setAttribute("href", openUrl);
