@@ -14,7 +14,7 @@ var url = document.location.href;
 if(url.match(regex) != null){
 	var uid = url.match(regex)[1];
  	var myid = document.getElementById("showProfileMenu").href.match(/id=(\d+)/)[1];
- 	var openUrl = "http://renrenhelper.sinaapp.com/run/list-album.php?uid="+uid;
+ 	var openUrl = "http://renrenhelper.sinaapp.com/run/list.php?uid="+uid;
  	var atag = document.createElement("a");
  	var txtNode = document.createTextNode("相册"); 
  	atag.setAttribute("href", openUrl);
